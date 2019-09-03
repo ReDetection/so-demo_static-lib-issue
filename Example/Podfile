@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'testimport_Example' do
+  pod 'testimport', :path => '../'
+
+  target 'testimport_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
