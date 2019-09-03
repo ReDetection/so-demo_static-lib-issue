@@ -1,0 +1,25 @@
+{
+  "name": "BugKit",
+  "version": "0.1.0",
+  "summary": "A short description of testimport.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ReDetection/BugKitBugKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ReDetection": "sbuglakov@xiag.ch"
+  },
+  "source": {
+    "git": "https://github.com/ReDetection/testimport.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "testimport/Classes/**/*",
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "swift_version": "5.0"
+}

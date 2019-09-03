@@ -1,0 +1,16 @@
+PODS:
+  - BugKit (0.1.0)
+
+DEPENDENCIES:
+  - BugKit (from `../`)
+
+EXTERNAL SOURCES:
+  BugKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BugKit: e44b9bfd1d40e927a04983a3e578efcc99bec085
+
+PODFILE CHECKSUM: c8cda3516e4b834141c992a0d873fa11d2ee8b5b
+
+COCOAPODS: 1.7.5

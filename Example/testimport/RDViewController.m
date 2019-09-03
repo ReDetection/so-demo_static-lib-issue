@@ -1,12 +1,5 @@
-//
-//  RDViewController.m
-//  testimport
-//
-//  Created by ReDetection on 09/03/2019.
-//  Copyright (c) 2019 ReDetection. All rights reserved.
-//
-
 #import "RDViewController.h"
+@import BugKit;
 
 @interface RDViewController ()
 
@@ -14,9 +7,16 @@
 
 @implementation RDViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    ObjcBusinessEntity *a = [[ObjcBusinessEntity alloc] init];
+    [a method];
+    [a method3];
+    
+    SwiftSubclassDoNotWorkEither *b = [[SwiftSubclassDoNotWorkEither alloc] init];
+    [b method2];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
